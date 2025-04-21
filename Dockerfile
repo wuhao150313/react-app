@@ -1,5 +1,5 @@
 #构建阶段
-FROM node:20 AS bulid
+FROM node:20 AS build
 WORKDIR /app
 COPY package*.json ./
 RUN npm config set registry https://registry.npmmirror.com
